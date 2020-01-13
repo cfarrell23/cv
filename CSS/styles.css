@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-family: 'Poppins', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  color: #40514E;
+  position: relative;
+  padding-bottom: 10px;
+  margin: 100px 0;
+}
+
+.bottom-container {
+  color: #EAF6F6;
+  background-color: #66BFBF;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.btn {
+  box-shadow: 0 0 0 2px #66bfbf;
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  background-color: #66bfbf;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  padding: 5px 16px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #3d768a;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+  background-color: #11999e;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px, 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  position: relative;
+  padding: 20px, 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.comp-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.mic-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+#programmer {
+  font-weight: normal;
+}
